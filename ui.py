@@ -239,6 +239,7 @@ class Button:
             self.blit_screen.blit(self.surface, self.rect)
 
 
+# Класс карточек
 class Card(Button):
     def __init__(self, name, onclick=None):
         super().__init__(0, 0, CARD_W, CARD_H, button_text="", onclick=onclick, fill_colors=0)
