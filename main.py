@@ -27,9 +27,7 @@ def rules():
 
     rules = "Ваша задача собрать, как можно больше групп карт, чем соперник. Обыграйте Мистера Свина!"
     rules_text1 = Text(rules, font_size=24)
-    # rules_text2 = Text("2", font_size=24)
     active_screen.add_or_change_text('rules', rules_text1, WIDTH / 2 - rules_text1.get_width() / 2, HEIGHT - 400)
-    # active_screen.add_or_change_text('rules', rules_text2, WIDTH / 2 - rules_text1.get_width() / 2, HEIGHT - 400 + 10)
 
 
 # Тосовка карт
